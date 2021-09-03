@@ -1,0 +1,74 @@
+form, input, button, input:focus{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	/* background-color: red; */
+	
+	height: 10vh;
+	width: 80vw;
+	
+	border-radius: 100%;
+}
+
+button{
+	width: 20vw;
+	height: 30px;
+
+	font-weight: bold;
+	font-size: 1rem;	
+
+	cursor: pointer;
+
+	color: #ac99ff;
+
+	background-color: #b4f5f9;
+	
+	border-radius: 3px;
+	border: solid 3px #a2d2ff;
+}	
+
+input{
+	width: 40vw;
+	height: 30px;
+
+	font-size: 1rem;
+
+	/* padding-left: 15px; */
+
+	border-radius: 2px;
+	border: solid 1px #ac99ff;
+
+	background-color: #f5dcff;
+	color: #bb5cff;
+
+	transition: width 3s;
+
+
+}
+
+input:focus{
+	border: 3px solid #ac99ff;
+	padding-left: 15px;
+}
+
+input::placeholder{
+	font-size: 1rem;
+
+	color: #bb5cff;
+
+	transition: padding-left 0.5s;
+}
+
+
+input:hover::placeholder{
+	padding-left: 15px;
+}
