@@ -14,13 +14,13 @@ form{
 	/* background-color: red; */
 	
 	height: 10vh;
-	width: 80vw;
+	width: 10vw;
 	
 	border-radius: 100%;
 }
 
 button{
-	width: 20vw;
+	width: 180px;
 	height: 30px;
 
 	font-weight: bold;
@@ -37,12 +37,12 @@ button{
 }	
 
 input{
-	width: 40vw;
+	width: 270px;
 	height: 30px;
 
 	font-size: 1rem;
 
-	/* padding-left: 15px; */
+	padding-left: 5px;
 
 	border-radius: 2px;
 	border: solid 1px #ac99ff;
@@ -51,13 +51,10 @@ input{
 	color: #bb5cff;
 
 	transition: width 3s;
-
-
 }
 
 input:focus{
 	border: 3px solid #ac99ff;
-	padding-left: 15px;
 }
 
 input::placeholder{
